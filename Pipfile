@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+bootstrap-flask = "==2.5.0"
+flask-ckeditor = "==1.0.0"
+flask-login = "==0.6.3"
+flask-gravatar = "==0.5.0"
+flask-wtf = "==1.3.0"
+wtforms = "==3.2.2"
+werkzeug = "==3.1.8"
+flask = "==3.1.3"
+flask-sqlalchemy = "==3.1.1"
+sqlalchemy = "==2.0.50"
+gunicorn = "==26.0.0"
+psycopg2-binary = "==2.9.12"
+blinker = "==1.9.0"
+
+[dev-packages]
+
+[requires]
+python_version = "3.14"
